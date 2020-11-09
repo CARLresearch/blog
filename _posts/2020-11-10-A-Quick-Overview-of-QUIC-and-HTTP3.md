@@ -7,7 +7,7 @@ sticky_rank: 2
 toc: false
 layout: post
 comments: true
-image: ![card](https://user-images.githubusercontent.com/66862125/98598954-3d944a00-2301-11eb-831f-9b77afa453c5.png)
+image: images/blog_2.png
 ---
 
 
