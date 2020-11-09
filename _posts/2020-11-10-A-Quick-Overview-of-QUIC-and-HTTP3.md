@@ -7,7 +7,7 @@ sticky_rank: 2
 toc: false
 layout: post
 comments: true
-image: images/blog_1/memory_game.jpg
+image: ![card](https://user-images.githubusercontent.com/66862125/98598954-3d944a00-2301-11eb-831f-9b77afa453c5.png)
 ---
 
 
