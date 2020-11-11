@@ -13,9 +13,6 @@ image: images/blog_2.png
 
 
 
-# A Quick Overview of QUIC and HTTP/3
-
-
 It’s quite evident how much we are dependent on the web. While some of us brag about being web developers, others are still intimidated by the information the web overflows us with. Ever wondered how the web works behind the scenes? 
 
 ### What really happens when you hit www.johndoe.com?
