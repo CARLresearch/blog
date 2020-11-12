@@ -91,7 +91,7 @@ Here we've primarily covered only cross-referencing citations with references, b
 
 ## Congratulations !!
 
-***You've made your first cross-referenced pdf in MS Word!*** Do note cross-referencing might appear to work on some mobile pdf viewers even if it is enabled in the pdf, but does work on the Desktop, with Adobe, Google Chrome etc.
+***You've made your first cross-referenced pdf in MS Word!*** Do note cross-referencing might not appear to work on some mobile pdf viewers even if it is enabled in the pdf, but does work on the Desktop, with Adobe, Google Chrome etc.
 
 If you know such a free tool exists to do this for MS Word documents, do drop it in the comments, and we'd love to mention it here. In future, someone might create a script/macro for this, making it even easier. If you create that, or know someone who does, do reach out to us in the comments, we'd love to give it a shoutout and even go and make a post about it benefitting researchers across the globe.
 
