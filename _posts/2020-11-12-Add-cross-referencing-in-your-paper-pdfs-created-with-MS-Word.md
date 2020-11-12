@@ -87,7 +87,7 @@ Here we've primarily covered only cross-referencing citations with references, b
 
 - [A. J. Paul](https://orcid.org/0000-0002-4351-2108), “[Randomised fast no-loss expert system to play tic-tac-toe like a human](https://arxiv.org/abs/2009.11225v2),” Cogn. Comput. Syst., Sep. 2020, doi: [10.1049/ccs.2020.0018](https://doi.org/10.1049/ccs.2020.0018). *Click on the paper title to reach the ArXiv v2 of the paper typeset by the author, with this method.*
 
-  *and many more to come!!*
+*... and many more to come!!*
 
 ## Congratulations !!
 
