@@ -1,4 +1,4 @@
-------
+---
 title:  Add cross-references to your paper pdfs created with MS Word
 author: Aditya Jyoti Paul
 description: Make your citations more accessible for readers.
@@ -11,7 +11,7 @@ show_tags: true
 search_exclude: false
 hide: false
 image: images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/frontimage.jpg
-------
+---
 
 If you're here, you've in all probability written the first draft of your paper and made a pdf for submission to your favorite journal/conference or open-access repository. Congratulations, pat yourself on the back, the hard part is now behind you. In a series of  blog posts, **I'm going to tell you how you can make your articles easier to read and understand and thus get more cited**!
 
