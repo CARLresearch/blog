@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://blog.carlsrm.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.carlsrm.tech/" rel="alternate" type="text/html" /><updated>2020-11-12T06:32:46-06:00</updated><id>https://blog.carlsrm.tech/feed.xml</id><title type="html">CARL Blog</title><subtitle>The official blog of CARL SRM</subtitle><entry><title type="html">Add cross-referencing in your Research Papers and Pdfs created with MS Word</title><link href="https://blog.carlsrm.tech/research%20tips/research/paper%20formatting/2020/11/12/Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word.html" rel="alternate" type="text/html" title="Add cross-referencing in your Research Papers and Pdfs created with MS Word" /><published>2020-11-12T00:00:00-06:00</published><updated>2020-11-12T00:00:00-06:00</updated><id>https://blog.carlsrm.tech/research%20tips/research/paper%20formatting/2020/11/12/Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word</id><content type="html" xml:base="https://blog.carlsrm.tech/research%20tips/research/paper%20formatting/2020/11/12/Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word.html">&lt;p&gt;If you’re here, you’ve in all probability written the first draft of your paper and made a pdf for submission to your favorite journal/conference or open-access repository. Congratulations, pat yourself on the back, the hard part is now behind you. In a series of  blog posts, &lt;strong&gt;I’m going to tell you how you can make your articles easier to read and understand and thus get more cited&lt;/strong&gt;!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://blog.carlsrm.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.carlsrm.tech/" rel="alternate" type="text/html" /><updated>2020-11-12T06:40:31-06:00</updated><id>https://blog.carlsrm.tech/feed.xml</id><title type="html">CARL Blog</title><subtitle>The official blog of CARL SRM</subtitle><entry><title type="html">Add cross-referencing in your Research Papers and Pdfs created with MS Word</title><link href="https://blog.carlsrm.tech/research%20tips/research/paper%20formatting/2020/11/12/Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word.html" rel="alternate" type="text/html" title="Add cross-referencing in your Research Papers and Pdfs created with MS Word" /><published>2020-11-12T00:00:00-06:00</published><updated>2020-11-12T00:00:00-06:00</updated><id>https://blog.carlsrm.tech/research%20tips/research/paper%20formatting/2020/11/12/Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word</id><content type="html" xml:base="https://blog.carlsrm.tech/research%20tips/research/paper%20formatting/2020/11/12/Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word.html">&lt;p&gt;If you’re here, you’ve in all probability written the first draft of your paper and made a pdf for submission to your favorite journal/conference or open-access repository. Congratulations, pat yourself on the back, the hard part is now behind you. In a series of  blog posts, &lt;strong&gt;I’m going to tell you how you can make your articles easier to read and understand and thus get more cited&lt;/strong&gt;!&lt;/p&gt;
 
 &lt;h2 id=&quot;okay-so-why-do-we-need-in-text-cross-referencing&quot;&gt;Okay! So why do we need in-text cross-referencing?&lt;/h2&gt;
 
@@ -52,11 +52,14 @@
     &lt;p&gt;i. Click on &lt;code class=&quot;highlighter-rouge&quot;&gt;Replace All&lt;/code&gt;.&lt;/p&gt;
 
     &lt;p&gt;If your citations use parenthesis, instead of square-brackets, use &lt;code class=&quot;highlighter-rouge&quot;&gt;\((*)\)&lt;/code&gt; in Step f. Why this works can be found &lt;a href=&quot;https://bioexpressblog.wordpress.com/2014/04/16/highlight-words-enclosed-in-parenthesis-in-ms-word/&quot;&gt;here&lt;/a&gt;. This should select anything within parenthesis including non-citations like &lt;code class=&quot;highlighter-rouge&quot;&gt;(D)&lt;/code&gt;, please ignore those. This does work for compound references like &lt;code class=&quot;highlighter-rouge&quot;&gt;(Author1 1993; Author2 and Author3 2017)&lt;/code&gt;. Word has a bug where if a search fails, consequent searches might also fail, in that case, the best way is to restart the word processor saving the existing changes.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Highlight.png&quot; alt=&quot;Highlight&quot; /&gt;&lt;/p&gt;
-
-    &lt;p&gt;Verify it all looks as expected and proceed.&lt;/p&gt;
   &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Highlight.png&quot; alt=&quot;Highlight&quot; title=&quot;Here's how we highlight all our citations.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Verify it all looks as expected and proceed.&lt;/p&gt;
+
+&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;In your Bibliography/References section, click on the first reference, on the part &lt;code class=&quot;highlighter-rouge&quot;&gt;[1]&lt;/code&gt;, in between the brackets and press &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl+Shift+F5&lt;/code&gt; to insert a bookmark.&lt;/p&gt;
   &lt;/li&gt;
@@ -74,7 +77,7 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Bookmark.png&quot; alt=&quot;Bookmark&quot; title=&quot;Bookmark&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Bookmark.png&quot; alt=&quot;Bookmark&quot; title=&quot; Here's how we create a Bookmark.&quot; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Remove all the highlights and probably the blue font color and links as well. Research papers have uniform font settings. So selecting &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl+A&lt;/code&gt; and selecting the font color as Black and pressing &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl+U&lt;/code&gt; twice gets the job done.&lt;/li&gt;
