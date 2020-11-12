@@ -1,0 +1,116 @@
+<hr />
+<p>title:  Add cross-references to your paper pdfs created with MS Word
+author: Aditya Jyoti Paul
+description: Make your citations more accessible for readers.
+categories: [Research Tips, Research, Paper Formatting]
+sticky_rank: 2
+toc: false
+layout: post
+comments: true
+show_tags: true
+search_exclude: false
+hide: false
+image: images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/frontimage.jpg
+——</p>
+
+<p>If you’re here, you’ve in all probability written the first draft of your paper and made a pdf for submission to your favorite journal/conference or open-access repository. Congratulations, pat yourself on the back, the hard part is now behind you. In a series of  blog posts, <strong>I’m going to tell you how you can make your articles easier to read and understand and thus get more cited</strong>!</p>
+
+<h2 id="okay-so-why-do-we-need-in-text-cross-referencing">Okay! So why do we need in-text cross-referencing?</h2>
+
+<p>In-text cross referencing is useful whenever you want to make it easier for the reader to reach any position in the document like</p>
+
+<ul>
+  <li><strong>Citations</strong> to you references in the bibliography section</li>
+  <li><strong>Sections</strong> and sub-sections</li>
+  <li><strong>Tables</strong> and <strong>Figures</strong></li>
+  <li>Sometimes, page numbers (discouraged as it’s easy to overlook relevant page numbers from changing at a later stage)</li>
+  <li>Any other position you wish to jump to</li>
+</ul>
+
+<p>Whenever we write a paper, we are spreading knowledge and it’s the duty of a good writer to make the journey as easy, fun and fulfilling for the reader as possible. A big way of doing this will be cross-referencing.</p>
+
+<p>Word’s internal cross-referencing feature seems to be quite arcane and complicated to use if you’re using some reference manager like Mendeley or Zotero. In this day and age if you’re writing papers, you’re undoubtedly using some reference manager. I tried finding an easy way to get this internal cross-referencing to work, but couldn’t find any. Hence I found a hackish but simple way to get this done and  in a few simple steps. So bear with me.</p>
+
+<h2 id="careful-">Careful !?</h2>
+
+<p>You cannot easily modify these links, once created and modifying the citations with Mendeley or Zotero later will NOT update the cross-referencing, completely messing up your document. Hence please make sure you’re doing this as the absolute last stage of typesetting.</p>
+
+<p>Also keep a saved copy, just in the off-chance, you really need to modify the reference list later.</p>
+
+<h2 id="great-tell-me-how-to-do-it">Great! Tell me how to do it!</h2>
+
+<p>In this section, we’ll see how we can do cross-referencing for citations in a few simple steps</p>
+
+<ol>
+  <li>
+    <p>If you’re using any reference manager like Mendeley or Zotero, you’d have something called field-codes in your text. You can check it by pressing <code class="highlighter-rouge">Alt+F9</code>. If you see some weird text appearing, those are field codes and it’s recommended to remove them. Select your entire text by pressing <code class="highlighter-rouge">Ctrl+A</code> and then get rid of them by pressing <code class="highlighter-rouge">Ctrl+Shift+F9</code></p>
+  </li>
+  <li>
+    <p>To make it easier to see all in-text citations within square-brackets, it’s ideal to highlight all of them and there’s an automated way to do this as well as described <a href="https://cybertext.wordpress.com/2011/06/20/word-replace-and-reformat-text-inside-square-brackets-using-wildcards/">here with explanation</a>. In the off-chance the link disappears, I’d reproduce those steps here:</p>
+
+    <p>a. Select all text with Ctrl+A.</p>
+
+    <p>b. Press <code class="highlighter-rouge">Ctrl+H</code> to open the Find and Replace dialog box.</p>
+
+    <p>c. Click the <code class="highlighter-rouge">More</code> button.</p>
+
+    <p>d. Select the <code class="highlighter-rouge">Use wildcards</code> check box an select <code class="highlighter-rouge">All</code> in the Search dropdown.</p>
+
+    <p>e. Put your cursor into the <code class="highlighter-rouge">Find what</code> field.</p>
+
+    <p>f. Type the following exactly (or copy it from here): <code class="highlighter-rouge">(\[)(\*)(\])</code></p>
+
+    <p>g. Make sure the highlight option is NOT No color.</p>
+
+    <p>h. Click the <code class="highlighter-rouge">Format</code> button, and select Highlight.</p>
+
+    <p>i. Click on <code class="highlighter-rouge">Replace All</code>.</p>
+
+    <p>If your citations use parenthesis, instead of square-brackets, use <code class="highlighter-rouge">\((*)\)</code> in Step f. Why this works can be found <a href="https://bioexpressblog.wordpress.com/2014/04/16/highlight-words-enclosed-in-parenthesis-in-ms-word/">here</a>. This should select anything within parenthesis including non-citations like <code class="highlighter-rouge">(D)</code>, please ignore those. This does work for compound references like <code class="highlighter-rouge">(Author1 1993; Author2 and Author3 2017)</code>. Word has a bug where if a search fails, consequent searches might also fail, in that case, the best way is to restart the word processor saving the existing changes.</p>
+
+    <p><img src="https://github.com/carlsrm/blog/blob/master/images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Highlight.png" alt="Highlight" /></p>
+
+    <p>Verify it all looks as expected and proceed.</p>
+  </li>
+  <li>
+    <p>In your Bibliography/References section, click on the first reference, on the part <code class="highlighter-rouge">[1]</code>, in between the brackets and press <code class="highlighter-rouge">Ctrl+Shift+F5</code> to insert a bookmark.</p>
+  </li>
+  <li>
+    <p>Name the reference <code class="highlighter-rouge">r01</code>(to later maintain order for upto 99 references easily) and press <code class="highlighter-rouge">Enter</code>.</p>
+  </li>
+  <li>
+    <p>Repeat step 4 for all your references.</p>
+  </li>
+  <li>
+    <p>Now select the part you want to link to say the number 1 between the square brackets, and to add the link, click <code class="highlighter-rouge">Ctrl+K</code> , select <code class="highlighter-rouge">Place in This Document</code> in the left and click on the bookmark <code class="highlighter-rouge">r01</code>. Make sure text to display shows the selected text, ie. the number 1 here.</p>
+  </li>
+  <li>
+    <p>Repeat Step 6 for all highlighted occurrences. For references like [17-19], add only one link from <code class="highlighter-rouge">17-19</code> to bookmark <code class="highlighter-rouge">r17</code> and for [37-40,45], add one link from <code class="highlighter-rouge">37-40</code> to bookmark <code class="highlighter-rouge">r37</code> and one from <code class="highlighter-rouge">45</code> to bookmark <code class="highlighter-rouge">r45</code>.</p>
+  </li>
+</ol>
+
+<p><img src="https://github.com/carlsrm/blog/blob/master/images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Bookmark.png" alt="Bookmark" /></p>
+
+<ol>
+  <li>Remove all the highlights and probably the blue font color and links as well. Research papers have uniform font settings. So selecting <code class="highlighter-rouge">Ctrl+A</code> and selecting the font color as Black and pressing <code class="highlighter-rouge">Ctrl+U</code> twice gets the job done.</li>
+</ol>
+
+<p>Here we’ve primarily covered only cross-referencing citations with references, but this can be easily extended to sections, subsections, tables, figures or any other place in the document by bookmarking at that location with <code class="highlighter-rouge">Ctrl+Shift+F5</code> , naming it and pressing <code class="highlighter-rouge">Enter</code>. Then just go to the place where the link should originate and press <code class="highlighter-rouge">Ctrl+K</code> and add the destination as the correct bookmark. I usually use the naming convention of <code class="highlighter-rouge">r01...</code> for references, <code class="highlighter-rouge">f01...</code> for figures, <code class="highlighter-rouge">t01...</code> for tables, <code class="highlighter-rouge">s01...</code> for sections and <code class="highlighter-rouge">ss01...</code> for sub-sections, but feel free to use any convention you want.</p>
+
+<h2 id="here-are-some-researchers-and-their-papers-using-this-method">Here are some researchers and their Papers using this Method</h2>
+
+<ul>
+  <li>
+    <p><a href="https://orcid.org/0000-0002-4351-2108">A. J. Paul</a>, “<a href="https://arxiv.org/abs/2009.11225v2">Randomised fast no-loss expert system to play tic-tac-toe like a human</a>,” Cogn. Comput. Syst., Sep. 2020, doi: <a href="https://doi.org/10.1049/ccs.2020.0018">10.1049/ccs.2020.0018</a>. (Click on the paper title to reach the ArXiv version of the paper typeset by the author)</p>
+
+    <p><em>and many more!!</em></p>
+  </li>
+</ul>
+
+<h2 id="congratulations-">Congratulations !!</h2>
+
+<p><strong><em>You’ve made your first cross-referenced pdf in MS Word!</em></strong> Do note cross-referencing might appear to work on some mobile pdf viewers even if it is enabled in the pdf, but does work on the Desktop, with Adobe, Google Chrome etc.</p>
+
+<p>If you know such a free tool exists to do this for MS Word documents, do drop it in the comments, and we’d love to mention it here. In future, someone might create a script/macro for this, making it even easier. If you create that, or know someone who does, do reach out to us in the comments, we’d love to give it a shoutout and even go and make a post about it benefitting researchers across the globe.</p>
+
+<p><strong><em>Finally, if this article helped you, we’d love to hear about it in the comments and if you have used it in a paper, we’d love to feature your paper here as well.</em></strong></p>
