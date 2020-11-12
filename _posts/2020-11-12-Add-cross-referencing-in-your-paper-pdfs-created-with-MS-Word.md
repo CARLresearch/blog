@@ -1,5 +1,5 @@
 ---
-title:  Add cross-references to your paper pdfs created with MS Word
+title:  Add cross-referencing in your Research Papers and Pdfs created with MS Word
 author: Aditya Jyoti Paul
 description: Make your citations more accessible for readers.
 categories: [Research Tips, Research, Paper Formatting]
