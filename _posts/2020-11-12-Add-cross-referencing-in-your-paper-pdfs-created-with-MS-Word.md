@@ -1,7 +1,7 @@
 ---
 title:  Add cross-referencing in your Research Papers and Pdfs created with MS Word
 author: Aditya Jyoti Paul
-description: Make your citations more accessible for readers.
+description: Make your citations, tables and figures more accessible for readers.
 categories: [Research Tips, Research, Paper Formatting]
 sticky_rank: 2
 toc: false
@@ -63,7 +63,7 @@ In this section, we'll see how we can do cross-referencing for citations in a fe
 
    If your citations use parenthesis, instead of square-brackets, use `\((*)\)` in Step f. Why this works can be found [here](https://bioexpressblog.wordpress.com/2014/04/16/highlight-words-enclosed-in-parenthesis-in-ms-word/). This should select anything within parenthesis including non-citations like `(D)`, please ignore those. This does work for compound references like `(Author1 1993; Author2 and Author3 2017)`. Word has a bug where if a search fails, consequent searches might also fail, in that case, the best way is to restart the word processor saving the existing changes.
 
-   ![Highlight](https://github.com/carlsrm/blog/blob/master/images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Highlight.png)
+   ![Highlight](images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Highlight.png)
 
    Verify it all looks as expected and proceed.
 
@@ -77,7 +77,7 @@ In this section, we'll see how we can do cross-referencing for citations in a fe
 
 7. Repeat Step 6 for all highlighted occurrences. For references like [17-19], add only one link from `17-19` to bookmark `r17` and for [37-40,45], add one link from `37-40` to bookmark `r37` and one from `45` to bookmark `r45`.
 
-![Bookmark](https://github.com/carlsrm/blog/blob/master/images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Bookmark.png)
+![Bookmark](images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Bookmark.png "Bookmark")
 
 8. Remove all the highlights and probably the blue font color and links as well. Research papers have uniform font settings. So selecting `Ctrl+A` and selecting the font color as Black and pressing `Ctrl+U` twice gets the job done.
 
