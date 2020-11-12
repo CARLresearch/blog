@@ -73,7 +73,7 @@ In this section, we'll see how we can do cross-referencing for citations in a fe
 
 5. Repeat step 4 for all your references.
 
-6. Now select the part you want to link to say the number 1 between the square brackets, and to add the link, click `Ctrl+K` , select `Place in This Document` in the left and click on the bookmark `r01`. Make sure text to display shows the selected text, ie. the number 1 here.
+6. Now select the text you want to link to originate from, say the number 1 between the square brackets, and click `Ctrl+K`, select `Place in This Document` in the left pane and click on the bookmark `r01`. Make sure text to display shows the selected text, ie. the number 1 here.
 
 7. Repeat Step 6 for all highlighted occurrences. For references like [17-19], add only one link from `17-19` to bookmark `r17` and for [37-40,45], add one link from `37-40` to bookmark `r37` and one from `45` to bookmark `r45`.
 
