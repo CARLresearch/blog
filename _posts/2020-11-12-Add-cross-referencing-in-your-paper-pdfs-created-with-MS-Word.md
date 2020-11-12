@@ -79,7 +79,7 @@ In this section, we'll see how we can do cross-referencing for citations in a fe
 
    ![Bookmark](/images/2020-11-12-Add-cross-referencing-in-your-paper-pdfs-created-with-MS-Word/Bookmark.png " Here's how we create a Bookmark.")
 
-8. Remove all the highlights and probably the blue link decorations with blue fonts and underlines as well. Research papers have uniform font settings. So select `Ctrl+A`, remove the highlights, select the font color as Black and press `Ctrl+U` twice to remove underlines.
+8. Remove all the highlights and probably the link decorations with blue fonts and underlines as well. Research papers have uniform font settings. So select `Ctrl+A`, remove the highlights, select the font color as Black and press `Ctrl+U` twice to remove underlines.
 
 Here we've primarily covered only cross-referencing citations with references, but this can be easily extended to sections, subsections, tables, figures or any other place in the document by bookmarking at that location with `Ctrl+Shift+F5` , naming it and pressing `Enter`. Then just go to the place where the link should originate and press `Ctrl+K` and add the destination as the correct bookmark. I usually use the naming convention of `r01...` for references, `f01...` for figures, `t01...` for tables, `s01...` for sections and `ss01...` for sub-sections, but feel free to use any convention you want.
 
