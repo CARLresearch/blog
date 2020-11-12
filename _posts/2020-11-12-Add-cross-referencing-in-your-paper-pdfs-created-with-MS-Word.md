@@ -27,7 +27,7 @@ In-text cross referencing is useful whenever you want to make it easier for the 
 
 Whenever we write a paper, we are spreading knowledge and it's the duty of a good writer to make the journey as easy, fun and fulfilling for the reader as possible. A big way of doing this will be cross-referencing.
 
-Word's internal cross-referencing feature seems to be quite arcane and complicated to use if you're using some reference manager like Mendeley or Zotero. In this day and age if you're writing papers, you're undoubtedly using some reference manager. I tried finding an easy way to get this internal cross-referencing to work, but couldn't find any. Hence I found a hackish but simple way to get this done and  in a few simple steps. So bear with me.
+Word's internal cross-referencing feature seems to be quite arcane and complicated to use if you're using some reference manager like Mendeley or Zotero. In this day and age if you're writing papers, you're undoubtedly using some reference manager. I couldn't find any easy way to get this internal cross-referencing to work. Hence *I designed a hackish way to get this done in just a few simple steps.*
 
 ## Careful !? 
 
