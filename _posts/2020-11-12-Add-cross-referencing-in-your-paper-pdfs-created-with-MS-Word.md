@@ -22,7 +22,7 @@ In-text cross referencing is useful whenever you want to make it easier for the 
 - **Citations** to you references in the bibliography section
 - **Sections** and sub-sections
 - **Tables** and **Figures**
-- Sometimes, page numbers (discouraged as it's easy to overlook relevant page numbers from changing at a later stage)
+- Sometimes, page numbers (discouraged as it's easy to overlook relevant page numbers that change at a later stage)
 - Any other position you wish to jump to
 
 Whenever we write a paper, we are spreading knowledge and it's the duty of a good writer to make the journey as easy, fun and fulfilling for the reader as possible. A big way of doing this will be cross-referencing.
