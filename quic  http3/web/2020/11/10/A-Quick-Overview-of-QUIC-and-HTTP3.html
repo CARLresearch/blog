@@ -14,11 +14,11 @@
 <link rel="canonical" href="https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html" />
 <meta property="og:url" content="https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html" />
 <meta property="og:site_name" content="CARL Blog" />
-<meta property="og:image" content="https://blog.carlsrm.tech/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3.png" />
+<meta property="og:image" content="https://blog.carlsrm.tech/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/Preview_Image.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-11-10T00:00:00-06:00" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Shubhangi Singh"},"description":"A congenial guide to the upcoming revolution of the web","headline":"A Quick Overview of QUIC and HTTP/3","dateModified":"2020-11-10T00:00:00-06:00","datePublished":"2020-11-10T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html"},"image":"https://blog.carlsrm.tech/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3.png","url":"https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Shubhangi Singh"},"description":"A congenial guide to the upcoming revolution of the web","headline":"A Quick Overview of QUIC and HTTP/3","dateModified":"2020-11-10T00:00:00-06:00","datePublished":"2020-11-10T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html"},"image":"https://blog.carlsrm.tech/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/Preview_Image.png","url":"https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://blog.carlsrm.tech/feed.xml" title="CARL Blog" /><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>A Quick Overview of QUIC and HTTP/3 | CARL Blog</title>
@@ -31,11 +31,11 @@
 <link rel="canonical" href="https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html" />
 <meta property="og:url" content="https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html" />
 <meta property="og:site_name" content="CARL Blog" />
-<meta property="og:image" content="https://blog.carlsrm.tech/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3.png" />
+<meta property="og:image" content="https://blog.carlsrm.tech/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/Preview_Image.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-11-10T00:00:00-06:00" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Shubhangi Singh"},"description":"A congenial guide to the upcoming revolution of the web","headline":"A Quick Overview of QUIC and HTTP/3","dateModified":"2020-11-10T00:00:00-06:00","datePublished":"2020-11-10T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html"},"image":"https://blog.carlsrm.tech/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3.png","url":"https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Shubhangi Singh"},"description":"A congenial guide to the upcoming revolution of the web","headline":"A Quick Overview of QUIC and HTTP/3","dateModified":"2020-11-10T00:00:00-06:00","datePublished":"2020-11-10T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html"},"image":"https://blog.carlsrm.tech/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/Preview_Image.png","url":"https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -140,17 +140,17 @@ window.onload = wrap_img;
 
 <p>I’ll try to keep it as simple as possible, so here it goes—  every domain name is associated with an IP address that the web understands. When you enter <em>www.johndoe.com</em>, it initially looks up for its IP address in the browser cache. If it is not found in browser cache, it looks up for it in the router cache and ISP cache.</p>
 
-<p><img src="https://user-images.githubusercontent.com/66862125/98586782-3cf2b800-22ef-11eb-8487-18ba5e7db004.png" alt="johndoe com" title="johndoe.com" /></p>
+<p><img src="/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/johndoe.com.png" alt="johndoe.com" title="What happens when you click on johndoe.com" /></p>
 
 <p>If the above steps don’t return the IP address, it is then requested to the root server which tells you from where you can get the information, i.e top level domain (TLD). The TLD let’s you know the IP address of your domain name (search input) and then you can initiate a connection with the domain.</p>
 
-<p><img src="https://user-images.githubusercontent.com/66862125/98586732-251b3400-22ef-11eb-98a1-b9de65cfe97a.png" alt="handshake" title="TCP 3-way handshake" /></p>
+<p><img src="/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/TCP_3_Way_Handshake.png" alt="TCP 3-Way Handshake" title="TCP 3-Way Handshake" /></p>
 
 <p>The connection is established in three steps and is known as <a href="https://docs.microsoft.com/en-us/troubleshoot/windows-server/networking/three-way-handshake-via-tcpip" title="TCP 3-way handshake">TCP 3-way handshake</a>. After successfully connecting with the server, you can then communicate with the domain and send requests according to your needs.</p>
 
 <p>To understand the web, we have put some layers to how this awesome sequence works out. The Open Systems Interconnection (OSI) model acts as a  reference tool for understanding  communication and transfer of data between systems in a network. The OSI model comprises seven layers, each layer performing specific functions to support its neighboring layers. This layered stack basically provides flexibility, and hence these layers are quite loosely coupled.</p>
 
-<p><img src="https://user-images.githubusercontent.com/66862125/98586884-627fc180-22ef-11eb-886f-e16f888e74b8.png" alt="OSI layers" title="7 Layers OSI" /></p>
+<p><img src="/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/Layers_of_OSI.png" alt="OSI Layers" title="7 Layers OSI" /></p>
 
 <ul>
   <li>
@@ -208,10 +208,10 @@ This was achieved by <em>multiplexing</em>. Hence, HTTP 2 solves two problems at
 <h3 id="enter-udp">Enter UDP</h3>
 
 <p>UDP isn’t like the TCP at all. It is fast and doesn’t care about the packet loss. 
-<img src="https://user-images.githubusercontent.com/66862125/98587345-07020380-22f0-11eb-889e-f74a85f35eb1.png" alt="Untitled drawing" title="TCP vs UDP" /></p>
+<img src="/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/TCP_vs_UDP.png" alt="TCP vs UDP" title="TCP vs UDP" /></p>
 
 <p><a href="https://ieeexplore.ieee.org/document/8537265" title="QUIC">QUIC</a> still uses TLS 1.3 . It still has that zero RTT goodness, it is built on top of UDP, and uses the HTTP 2 semantics. QUIC incorporates the multiplexing from HTTP 2 and re-implements in-order reliability on top of UDP custom top packet loss recovery logic.
-<img src="https://user-images.githubusercontent.com/66862125/98587393-1a14d380-22f0-11eb-8d60-08f7d9b03dc0.png" alt="Untitled drawing (1)" title="Layers of QUIC" /></p>
+<img src="/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/Layers_of_QUIC.png" alt="Layers of QUIC" title="Layers of QUIC" /></p>
 
 <p>This means that in QUIC if one packet is facing problems, others don’t have to be blocked due to it. Thus solving the TCP head-of-the-line problem! For solving this one problem, it is evident that a lot of effort is required at the backend. Also we know that HTTP 2 and TLS 1.3 work absolutely fine on TCP as well. So, the question arises: was it really worth the effort to solve that one TCP head-of-the-line blocking problem? The answer is <strong>NO</strong>.</p>
 
