@@ -7,7 +7,7 @@ sticky_rank: 2
 toc: false
 layout: post
 comments: true
-image: images/blog_2.png
+image: images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3.png
 ---
 
 
