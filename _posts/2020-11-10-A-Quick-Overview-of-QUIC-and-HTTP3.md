@@ -7,7 +7,7 @@ sticky_rank: 2
 toc: false
 layout: post
 comments: true
-image: images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3.png
+image: images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/Preview_Image.png
 ---
 
 
@@ -19,17 +19,17 @@ It’s quite evident how much we are dependent on the web. While some of us brag
 
 I’ll try to keep it as simple as possible, so here it goes—  every domain name is associated with an IP address that the web understands. When you enter _www.johndoe.com_, it initially looks up for its IP address in the browser cache. If it is not found in browser cache, it looks up for it in the router cache and ISP cache. 
 
-![johndoe com](https://user-images.githubusercontent.com/66862125/98586782-3cf2b800-22ef-11eb-8487-18ba5e7db004.png "johndoe.com")
+![johndoe.com](/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/johndoe.com.png "What happens when you click on johndoe.com")
 
 If the above steps don’t return the IP address, it is then requested to the root server which tells you from where you can get the information, i.e top level domain (TLD). The TLD let’s you know the IP address of your domain name (search input) and then you can initiate a connection with the domain. 
 
-![handshake](https://user-images.githubusercontent.com/66862125/98586732-251b3400-22ef-11eb-98a1-b9de65cfe97a.png "TCP 3-way handshake")
+![TCP 3-Way Handshake](/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/TCP_3_Way_Handshake.png "TCP 3-Way Handshake")
 
 The connection is established in three steps and is known as [TCP 3-way handshake](https://docs.microsoft.com/en-us/troubleshoot/windows-server/networking/three-way-handshake-via-tcpip "TCP 3-way handshake"). After successfully connecting with the server, you can then communicate with the domain and send requests according to your needs. 
 
 To understand the web, we have put some layers to how this awesome sequence works out. The Open Systems Interconnection (OSI) model acts as a  reference tool for understanding  communication and transfer of data between systems in a network. The OSI model comprises seven layers, each layer performing specific functions to support its neighboring layers. This layered stack basically provides flexibility, and hence these layers are quite loosely coupled. 
 
-![OSI layers](https://user-images.githubusercontent.com/66862125/98586884-627fc180-22ef-11eb-886f-e16f888e74b8.png "7 Layers OSI")
+![OSI Layers](/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/Layers_of_OSI.png "7 Layers OSI")
 
 - Physical Layer: It consists of physical devices such as _hubs, repeaters, modems,_ etc. which are responsible for the transfer of raw unstructured data in the form of [bits](https://web.stanford.edu/class/cs101/bits-bytes.html "bits"). It defines the topology of devices in a network and transmits data by converting the digital bits into electrical, optical, or radio signals.
 
@@ -72,10 +72,10 @@ On the whole, in order to solve the TCP head-of-the-line problem, we can either 
 ### Enter UDP
 
 UDP isn’t like the TCP at all. It is fast and doesn’t care about the packet loss. 
-![Untitled drawing](https://user-images.githubusercontent.com/66862125/98587345-07020380-22f0-11eb-889e-f74a85f35eb1.png "TCP vs UDP")
+![TCP vs UDP](/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/TCP_vs_UDP.png "TCP vs UDP")
 
 [QUIC](https://ieeexplore.ieee.org/document/8537265 "QUIC") still uses TLS 1.3 . It still has that zero RTT goodness, it is built on top of UDP, and uses the HTTP 2 semantics. QUIC incorporates the multiplexing from HTTP 2 and re-implements in-order reliability on top of UDP custom top packet loss recovery logic.
-![Untitled drawing (1)](https://user-images.githubusercontent.com/66862125/98587393-1a14d380-22f0-11eb-8d60-08f7d9b03dc0.png "Layers of QUIC")
+![Layers of QUIC](/images/2020-11-10-A-Quick-Overview-of-QUIC-and-HTTP3/Layers_of_QUIC.png "Layers of QUIC")
 
 This means that in QUIC if one packet is facing problems, others don’t have to be blocked due to it. Thus solving the TCP head-of-the-line problem! For solving this one problem, it is evident that a lot of effort is required at the backend. Also we know that HTTP 2 and TLS 1.3 work absolutely fine on TCP as well. So, the question arises: was it really worth the effort to solve that one TCP head-of-the-line blocking problem? The answer is __NO__.
 
