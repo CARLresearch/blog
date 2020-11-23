@@ -53,7 +53,7 @@ In this section, we'll see how we can do cross-referencing for citations in a fe
 
    e. Put your cursor into the `Find what` field.
 
-   f. Type the following exactly (or copy it from here): `(\[)(\*)(\])`
+   f. Type the following exactly (or copy it from here): `(\[)(*)(\])`
 
    g. Make sure the highlight option is NOT No color.
 
