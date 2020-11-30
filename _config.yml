@@ -32,7 +32,7 @@ baseurl: "" # the subpath of your site, e.g. "/blog".
 minima:
   social_links:
     twitter: carl_srm
-    github: carlsrm
+    github: carlresearch
     linkedin_username : company/carlsrm
 
 # Set this to true to get LaTeX math equation support
