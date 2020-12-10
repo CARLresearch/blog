@@ -3,7 +3,7 @@ title:  A Quick Overview of QUIC and HTTP/3
 author: Shubhangi Singh
 description: A congenial guide to the upcoming revolution of the web
 categories: [QUIC  HTTP3, Web]
-sticky_rank: 2
+#sticky_rank: 2
 toc: false
 layout: post
 comments: true
