@@ -3,7 +3,7 @@ title: How sharp is your Memory? Check it with this Memory Game
 author: Sanskriti Khare
 description: A fun-to-play memory checker made with Python's Speech Recognition API
 categories: [speech recognition, python, pyttsx3]
-sticky_rank: 1
+#sticky_rank: 1
 toc: false
 layout: post
 comments: true
