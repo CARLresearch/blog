@@ -3,7 +3,7 @@ title:  Add cross-referencing in your Research Papers and Pdfs created with MS W
 author: Aditya Jyoti Paul
 description: Make your citations, tables and figures more accessible for readers.
 categories: [Research Tips, Research, Paper Formatting]
-sticky_rank: 2
+#sticky_rank: 2
 toc: false
 layout: post
 comments: true
