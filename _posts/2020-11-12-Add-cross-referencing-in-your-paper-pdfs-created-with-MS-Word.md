@@ -31,9 +31,9 @@ Word's internal cross-referencing feature seems to be quite arcane and complicat
 
 ## Careful !? 
 
-You cannot easily modify these links, once created and modifying the citations with Mendeley or Zotero later will NOT update the cross-referencing, completely messing up your document. Hence please make sure you're doing this as the absolute last stage of typesetting.
+You cannot easily modify these links after creation, and modifying the citations with Mendeley or Zotero later will NOT update the cross-referencing, thus completely messing up your document. Hence please make sure you're doing this as the absolute last stage of typesetting.
 
-Also keep a saved copy, just in the off-chance, you really need to modify the reference list later.
+Also keep a saved copy, just on the off-chance, you really need to modify the reference list later.
 
 ## Great! Tell me how to do it!
 
